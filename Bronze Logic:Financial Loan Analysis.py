@@ -4,6 +4,8 @@ from pyspark.sql.functions import *
 def ingest_to_bronze(entity:str):
     """
     Reusable function to move data from Landing to Bronze.
+
+    
     
     """
     base_data_dir=f"/mnt/certazuresa/landing-finloan1/{entity}"
